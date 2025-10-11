@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 from sklearn import metrics
-from model_functions import create_model, train_model, predict, evaluate_metrics  # si las tienes en otro archivo
+#from model_functions import create_model, train_model, predict, evaluate_metrics  # si las tienes en otro archivo
 
 # Cargar datos
 categories = ['alt.atheism', 'comp.graphics', 'sci.space']
