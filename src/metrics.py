@@ -5,12 +5,10 @@ def evaluate_metrics(y_true, y_pred, average='macro'):
     precision = precision_score(y_true, y_pred, average=average)
     recall = recall_score(y_true, y_pred, average=average)
     f1 = f1_score(y_true, y_pred, average=average)
-
     metrics_dict = {
         'precision': precision,
         'recall': recall,
         'f1_score': f1
     }
-
     return metrics_dict
     return precision, recall, f1
