@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 from sklearn import metrics
-from src.model import create_model, train_model, predict
+from src.model import create_model
 from src.metrics import evaluate_metrics
 
 
