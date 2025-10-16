@@ -6,6 +6,7 @@ from sklearn import metrics
 from src.model import create_model, train_model, predict
 from src.metrics import evaluate_metrics
 
+
 # Cargar datos
 categories = ['alt.atheism', 'comp.graphics', 'sci.space']
 train = fetch_20newsgroups(subset='train', categories=categories)
