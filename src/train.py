@@ -5,6 +5,8 @@ from sklearn.pipeline import make_pipeline
 from sklearn import metrics
 from src.model import create_model
 from src.metrics import evaluate_metrics
+from model import create_model
+from metrics import evaluate_metrics
 
 
 # Cargar datos
